@@ -1,0 +1,19 @@
+.services-list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Adjust depending on the number of cards */
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  @media (max-width: 1024px) {
+    .services-list {
+      grid-template-columns: repeat(2, 1fr); /* Stack two columns on medium screens */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .services-list {
+      grid-template-columns: 1fr; /* Stack one column on small screens */
+    }
+  }
+  

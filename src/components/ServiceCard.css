@@ -1,0 +1,41 @@
+.service-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px); /* Hover effect */
+  }
+  
+  .service-icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px; /* Spacing between icon and text */
+  }
+  
+  .service-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .service-card p {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .know-more-btn {
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .know-more-btn:hover {
+    opacity: 0.9; /* Button hover effect */
+  }
+  

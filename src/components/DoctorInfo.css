@@ -1,0 +1,52 @@
+.doctor-info {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .doctor-content {
+    display: flex;
+    align-items: center;
+    max-width: 900px; /* Set a max width to control the layout */
+  }
+  
+  .doctor-img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 20px; /* Spacing between the image and the text */
+  }
+  
+  .doctor-description {
+    flex: 1; /* Allow description to take the remaining space */
+  }
+  
+  .doctor-description h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .doctor-description p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .know-more, .instagram {
+    padding: 10px 20px;
+    border: none;
+    background-color: #ff6767;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .instagram {
+    background-color: #e1306c;
+  }
+  
